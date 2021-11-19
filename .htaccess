@@ -1,12 +1,12 @@
 <IfModule mod_expires.c>
           ExpiresActive on
-          ExpiresByType image/jpg "access plus 5 minutes"
-          ExpiresByType image/png "access 5 minutes"
-          ExpiresByType image/gif "access 5 minutes"
-          ExpiresByType image/jpeg "access 5 minutes"
-          ExpiresByType text/css "access 5 minutes"
-          ExpiresByType application/x-javascript "access 5 minutes"
-          ExpiresByType application/javascript "access 5 minutes"
+          ExpiresByType image/jpg "access plus 24 hours"
+          ExpiresByType image/png "access 24 hours"
+          ExpiresByType image/gif "access 24 hours"
+          ExpiresByType image/jpeg "access 24 hours"
+          ExpiresByType text/css "access 24 hours"
+          ExpiresByType application/x-javascript "access 24 hours"
+          ExpiresByType application/javascript "access 24 hours"
 </IfModule>
 
 # BEGIN Cache-Control Headers
