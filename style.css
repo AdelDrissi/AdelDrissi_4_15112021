@@ -99,8 +99,11 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: #F3976C;
     background-size: 280px 280px;
+}
+
+.texture-paper{
+    background: #F3976C;
 }
 
 .b-parallax {
