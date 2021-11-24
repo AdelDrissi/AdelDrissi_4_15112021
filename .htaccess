@@ -1,27 +1,26 @@
 <IfModule mod_expires.c>
           ExpiresActive on
-          ExpiresByType image/jpg "access plus 30 day"
-          ExpiresByType image/png "access plus 30 day"
-          ExpiresByType image/gif "access plus 30 day"
-          ExpiresByType image/jpeg "access plus 30 day"
-          ExpiresByType text/css "access plus 30 day"
-          ExpiresByType application/x-javascript "access plus 30 day"
-          ExpiresByType application/javascript "access plus 30 day"
+          ExpiresByType image/jpg "access plus 24 hours"
+          ExpiresByType image/png "access plus 24 hours"
+          ExpiresByType image/gif "access plus 24 hours"
+          ExpiresByType image/jpeg "access plus 24 hours"
+          ExpiresByType text/css "access plus 24 hours"
+          ExpiresByType application/x-javascript "access plus 24 hours"
+          ExpiresByType application/javascript "access plus 24 hours"
 </IfModule>
 
 # BEGIN Cache-Control Headers
 <ifmodule mod_headers.c>
  
  <filesmatch "\\.(ico|jpe?g|png|gif|swf|gz|ttf|webp)$">
- Header set Cache-Control "max-age=2592000"
+ Header set Cache-Control "max-age=600"
  </filesmatch>
 
  <filesmatch "\\.(css)$">
- Header set Cache-Control "max-age=2592000"
- </filesmatch>
-
+ Header set Cache-Control "max-age=600"
+ </files600
  <filesmatch "\\.(js)$">
- Header set Cache-Control "max-age=2592000"
+ Header set Cache-Control "max-age=600"
  </filesmatch>
 
 <filesmatch "\\.(html|htm)$">
