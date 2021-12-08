@@ -18,7 +18,11 @@ button {
 
 .center-bloc6{
     position: relative;
-    left: 55%;
+    left: 88%;
+}
+
+.text-center{
+    text-align: center;
 }
 
 a:hover {
@@ -111,11 +115,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: darkblue;
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: darkblue
 }
 
 .d-bloc .icon-round,
@@ -124,7 +128,9 @@ a:hover {
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
     border-color: rgba(255, 255, 255, .9);
+    color: blue;
 }
+
 
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
@@ -204,11 +210,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
@@ -279,6 +280,7 @@ a:hover {
     margin-top: 30px;
 }
 
+
 .voffset-lg {
     margin-top: 80px;
 }
@@ -296,6 +298,8 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    position: relative;
+    left: 1%;
 }
 
 .navbar {
@@ -713,7 +717,7 @@ p {
 
 .width-informtions-paragraphe{
     position: relative;
-    left: 55%;
+    left: 58%;
     font-size: 25px;
 }
 
@@ -735,11 +739,20 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
+.social-2{
+    max-width: 400px;
+    margin: auto auto auto auto;
+    display: flex;
+    position: relative;
+    gap: 20px;
+    left: 35%;
+}
+
 
 h2 {
     font-size: 22px;
@@ -759,8 +772,15 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
+h1{
+    color:white!important;
+    position: relative;
+    left: 55%;
+}
+
+.la-chouette-agence{
+    position: relative;
+    left: 0%;
 }
 
 h4 {
@@ -774,7 +794,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -795,8 +815,8 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+.grey-background {
+    background-color: darkgrey;
     padding: 40px 40px 40px 40px;
 }
 
@@ -814,21 +834,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: darkgrey;
 }
 
 .tc-white {
     color: white!important;
-    font-size: 20px;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: darkgrey;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: darkblue!important;
     color: #FFFFFF!important;
 }
 
@@ -917,7 +936,7 @@ h4 {
 }
 .text-end{
     position: relative;
-    left: 45%;
+    left: 31%;
 }
 
 }
