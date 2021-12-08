@@ -25,6 +25,10 @@ button {
     text-align: center;
 }
 
+.text-center{
+    text-align: center;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -815,6 +819,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
+
 .grey-background {
     background-color: darkgrey;
     padding: 40px 40px 40px 40px;
@@ -838,7 +843,11 @@ h4 {
 }
 
 .tc-white {
+
     color: white!important;
+
+    color: white!important; 
+
 }
 
 .btn-atomic-tangerine {
