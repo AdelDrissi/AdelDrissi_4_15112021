@@ -535,6 +535,10 @@ button {
   width: 44%;
 }
 
+.form-group {
+  margin-bottom: 19px;
+}
+
 .scrollToTop {
   width: 40px;
   height: 40px;
@@ -736,12 +740,13 @@ p {
 
 .cta-hero {
   margin-top: 22px;
-  color: #ffffff !important;
+  color: black !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
   font-weight: 700;
 }
+
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
@@ -843,12 +848,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: darkgrey;
-  color: #ffffff !important;
+  background: #f3976c;
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: darkblue !important;
+  background: darkgray !important;
   color: #ffffff !important;
 }
 
