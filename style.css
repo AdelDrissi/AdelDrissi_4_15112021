@@ -300,6 +300,8 @@ a:hover {
   font-size: 32px;
   position: relative;
   left: 1%;
+  font-size: 46px;
+  font-weight: 700;
 }
 
 .navbar {
@@ -894,7 +896,7 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url('img/la-chouette-agence-banniere-min.jpg');
+  background-image: url('img/la-chouette-agence-banniere-min.webp');
 }
 
 .bg-presentation {
