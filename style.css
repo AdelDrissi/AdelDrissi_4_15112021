@@ -460,6 +460,7 @@ nav .caret {
 
 .mg-md {
   margin-top: 10px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
@@ -847,6 +848,10 @@ h4 {
   color: white !important;
 }
 
+.tc-white-index {
+  font-size: 25px;
+}
+
 .btn-atomic-tangerine {
   background: #f3976c;
   color: black !important;
@@ -888,12 +893,8 @@ h4 {
   background-image: url('img/dots-bg.png');
 }
 
-.bg-lines-h2-bg {
-  background-image: url('img/lines-h2-bg.png');
-}
-
 .bg-banniere {
-  background-image: url('img/la-chouette-agence-banniere_1.webp');
+  background-image: url('img/la-chouette-agence-banniere-min.jpg');
 }
 
 .bg-presentation {
