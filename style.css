@@ -7,14 +7,16 @@ html {
   background: #fff;
   overflow-x: hidden;
   font-size: 20px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a,
 button {
   transition: all 0.3s ease-in-out;
   outline: none !important;
+}
+
+.text-end {
+  color: #ffffff;
 }
 
 .center-bloc6 {
@@ -46,9 +48,6 @@ a:hover {
   clear: both;
   background: 50% 50% no-repeat;
   padding: 0 50px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   position: relative;
 }
@@ -80,9 +79,6 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-  -webkit-background-size: auto !important;
-  -moz-background-size: auto !important;
-  -o-background-size: auto !important;
   background-size: auto !important;
 }
 
@@ -386,7 +382,6 @@ a:hover {
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
-    -webkit-transform: translateY(-50%);
   }
   .nav > li .dropdown-menu a,
   .nav > li .dropdown-menu a:hover {
@@ -422,10 +417,9 @@ a:hover {
   }
 }
 
-.text-end {
+.text-design {
   position: relative;
-  left: 45%;
-  font-size: 20px;
+  right: 55%;
 }
 
 .nav > li > .dropdown a {
@@ -584,12 +578,10 @@ a[data-lightbox]:hover::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
   opacity: 0.6;
-  -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
 }
 
@@ -903,7 +895,7 @@ h4 {
   background-image: url('img/image-de-presentation.webp');
 }
 
-@media screen and (max-width: 1299px) and (max) {
+@media screen and (max-width: 1299px) {
   .bloc {
     padding-left: 20px;
     padding-right: 20px;
@@ -917,9 +909,15 @@ h4 {
   }
 }
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (max-width: 768px) {
   .navbar .nav {
     max-width: 80%;
+  }
+
+  .hero-bloc-text {
+    font-size: 38px;
+    position: relative;
+    left: 55%;
   }
 
   .text-end {
@@ -931,20 +929,9 @@ h4 {
   }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .text-design {
-    position: relative;
-    left: -25%;
-  }
-  .text-end {
-    position: relative;
-    left: 31%;
   }
 }
 
@@ -956,6 +943,11 @@ h4 {
     background-attachment: scroll;
   }
 
+  .width-informtions-paragraphe {
+    position: relative;
+    left: 55%;
+  }
+
   .index-accueil {
     position: absolute;
     top: 30%;
@@ -964,12 +956,7 @@ h4 {
 
   .text-end {
     position: relative;
-    left: 30%;
-  }
-
-  .text-design {
-    position: relative;
-    right: 49%;
+    left: 0%;
   }
   .contact {
     position: absolute;
@@ -981,20 +968,10 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
   .bloc-group,
   .bloc-group .bloc {
     display: block;
     width: 100%;
-  }
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
@@ -1022,7 +999,7 @@ h4 {
 
   .text-end {
     position: relative;
-    left: 30%;
+    left: 0%;
     font-size: 15px;
   }
 
@@ -1041,8 +1018,6 @@ h4 {
   .site-navigation {
     position: inherit;
     transform: none;
-    -webkit-transform: none;
-    -ms-transform: none;
   }
   .nav > li {
     margin-top: 0;
@@ -1070,6 +1045,12 @@ h4 {
     color: rgba(255, 255, 255, 0.6);
   }
 
+  .hero-bloc-text {
+    font-size: 38px;
+    position: relative;
+    left: 55%;
+  }
+
   .hero {
     padding: 50px 0;
   }
@@ -1080,7 +1061,6 @@ h4 {
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
-    -webkit-box-shadow: none;
     box-shadow: none;
   }
   .navbar-brand img {
@@ -1162,7 +1142,9 @@ h4 {
   }
 
   .width-informtions-paragraphe {
-    font-size: 29px;
+    font-size: 24px;
+    position: relative;
+    left: 55%;
   }
   .contact {
     position: relative;
@@ -1172,7 +1154,7 @@ h4 {
 
   .text-end {
     position: relative;
-    left: 10%;
+    left: 2%;
     font-size: 15px;
   }
 
